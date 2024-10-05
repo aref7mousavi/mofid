@@ -34,6 +34,7 @@ pre-commit run -a -c configs/.pre-commit-config.yaml
 python3 scripts/bump.py
 ```
 
+## Environments
 ```env
 DEBUG=True
 SECRET_KEY=xxxx
