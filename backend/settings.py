@@ -108,5 +108,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-VERSION = "v0.0.4"
-VERSION_REFERENCE = "54a9349f"
+VERSION = "v0.0.5"
+VERSION_REFERENCE = "8a3d8124"
