@@ -31,7 +31,14 @@ pre-commit run -a -c configs/.pre-commit-config.yaml
 ## Bump version
 
 ```bash
+# patch
 python3 scripts/bump.py
+
+# minor
+python3 scripts/bump.py -m
+
+# major
+python3 scripts/bump.py -j
 ```
 
 ## Environments
