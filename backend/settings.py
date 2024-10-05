@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
-VERSION = "v0.0.0"
+VERSION = "v0.0.6"
 
-VERSION_REFERENCE = ""
+VERSION_REFERENCE = "3c07c52f"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
