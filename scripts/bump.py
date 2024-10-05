@@ -90,14 +90,14 @@ class BumpVersion:
             file.write(content)
 
         if TOML_PATH:
-            with open(TOML_PATH, 'r') as file:
+            with open(TOML_PATH, "r") as file:
                 content = file.read()
 
             content = re.sub(
                 r'version\s*=\s*".*?"', f'version = "{self.version.lstrip("v")}"', content
             )
 
-            with open(TOML_PATH, 'w') as file:
+            with open(TOML_PATH, "w") as file:
                 file.write(content)
 
         self.repo.git.add(A=True)

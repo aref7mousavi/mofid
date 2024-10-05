@@ -27,3 +27,16 @@ pre-commit install -c configs/.pre-commit-config.yaml
 
 pre-commit run -a -c configs/.pre-commit-config.yaml
 ```
+
+## Bump version
+
+```bash
+python3 scripts/bump.py
+```
+
+```env
+DEBUG=True
+SECRET_KEY=xxxx
+
+CORS_ALLOWED_ORIGINS=http://127.0.0.1:3000,http://127.0.0.1:3100
+```
