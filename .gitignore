@@ -141,3 +141,6 @@ poetry.lock
 poetry*
 
 .idea
+.vscode
+.code
+.env.*
