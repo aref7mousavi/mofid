@@ -10,6 +10,9 @@ nano ~/.bash_aliases
 
 ## poetry commands
 ```bash
+# add package 
+poetry add -C ./configs/pyproject.toml PACKAGE_NAME
+
 # add package to dev environment
 poetry add -C ./configs/pyproject.toml --group dev PACKAGE_NAME
 
@@ -19,7 +22,6 @@ poetry install -C ./configs/pyproject.toml --only dev
 # install all dependencies (prod + dev)
 poetry install -C ./configs/pyproject.toml
 ```
-
 
 ## pre-commit commands
 ```bash
